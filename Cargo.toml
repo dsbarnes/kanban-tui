@@ -1,0 +1,13 @@
+[package]
+name = "kanban-tui"
+version = "0.3.0"
+authors = ["Derek Barnes <derekb0147@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tui = "0.13"
+termion = "1.5"
+rand = "0.7"
+chrono = "0.4"
